@@ -7,6 +7,9 @@ void main() {
 
   //PARAMETERS BUT NO RETURN TYPE
   printName("charles");
+
+  String greet = greeting();
+  print(greet);
 }
 
 //HAS A RETURN TYPE
@@ -24,3 +27,5 @@ void printMsg() {
 void printName(String name) {
   print("hello $name");
 }
+
+String greeting() => 'hello boyy';
